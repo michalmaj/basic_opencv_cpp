@@ -16,7 +16,7 @@ int main()
 	{
 		cap.read(img);
 
-		// Check if we still have frames
+		// Check if we still have frames, if not break
 		if(img.empty())
 			break;
 
